@@ -20,6 +20,12 @@
     border: 1px solid var(--branco);
     color: var(--branco);
     border-radius: 24px;
-    margin: 1em;
-    margin: 100%;
+    padding: 1em;
+    width: 100%;
+}
+
+.banner__pesquisa::placeholder {
+    font-family: var(--fonte-principal);
+    font-size: 14px;
+    font-weight: 400;
 }
